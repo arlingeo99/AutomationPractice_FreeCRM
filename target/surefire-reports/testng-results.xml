@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-25T14:51:17 GMT-07:00" name="Surefire suite" finished-at="2026-01-25T14:56:18 GMT-07:00" duration-ms="300705">
+    <groups>
+    </groups>
+    <test started-at="2026-01-25T14:51:17 GMT-07:00" name="Surefire test" finished-at="2026-01-25T14:56:18 GMT-07:00" duration-ms="300705">
+      <class name="tests.TasksPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TasksPageTest@23529fee]" started-at="2026-01-25T14:55:58 GMT-07:00" name="setUp" finished-at="2026-01-25T14:56:09 GMT-07:00" duration-ms="10562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifytasksLabelTest()[pri:1, instance:tests.TasksPageTest@23529fee]" started-at="2026-01-25T14:56:09 GMT-07:00" name="verifytasksLabelTest" finished-at="2026-01-25T14:56:09 GMT-07:00" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytasksLabelTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TasksPageTest@23529fee]" started-at="2026-01-25T14:56:09 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:56:09 GMT-07:00" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TasksPageTest@23529fee]" started-at="2026-01-25T14:56:09 GMT-07:00" name="setUp" finished-at="2026-01-25T14:56:17 GMT-07:00" duration-ms="7531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifydeleteIconTest()[pri:2, instance:tests.TasksPageTest@23529fee]" started-at="2026-01-25T14:56:17 GMT-07:00" name="verifydeleteIconTest" finished-at="2026-01-25T14:56:17 GMT-07:00" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydeleteIconTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TasksPageTest@23529fee]" started-at="2026-01-25T14:56:17 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:56:18 GMT-07:00" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.TasksPageTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:54:58 GMT-07:00" name="setUp" finished-at="2026-01-25T14:55:06 GMT-07:00" duration-ms="7532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageTitleTest()[pri:1, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:06 GMT-07:00" name="validateHomePageTitleTest" finished-at="2026-01-25T14:55:06 GMT-07:00" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:06 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:55:06 GMT-07:00" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:06 GMT-07:00" name="setUp" finished-at="2026-01-25T14:55:22 GMT-07:00" duration-ms="15736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyvalidUserLabelTest()[pri:2, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:22 GMT-07:00" name="verifyvalidUserLabelTest" finished-at="2026-01-25T14:55:23 GMT-07:00" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyvalidUserLabelTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:23 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:55:27 GMT-07:00" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:27 GMT-07:00" name="setUp" finished-at="2026-01-25T14:55:36 GMT-07:00" duration-ms="9539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnContactTest()[pri:3, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:36 GMT-07:00" name="clickOnContactTest" finished-at="2026-01-25T14:55:38 GMT-07:00" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContactTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HomePageTest@7f1302d6]" started-at="2026-01-25T14:55:38 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:55:39 GMT-07:00" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.DealsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:53:40 GMT-07:00" name="setUp" finished-at="2026-01-25T14:53:47 GMT-07:00" duration-ms="6964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifydealsLabelTest()[pri:1, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:53:47 GMT-07:00" name="verifydealsLabelTest" finished-at="2026-01-25T14:53:47 GMT-07:00" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydealsLabelTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:53:47 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:53:48 GMT-07:00" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:53:48 GMT-07:00" name="setUp" finished-at="2026-01-25T14:54:01 GMT-07:00" duration-ms="12413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectDealsByNameTest()[pri:2, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:01 GMT-07:00" name="selectDealsByNameTest" finished-at="2026-01-25T14:54:01 GMT-07:00" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDealsByNameTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:01 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:54:02 GMT-07:00" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:02 GMT-07:00" name="setUp" finished-at="2026-01-25T14:54:11 GMT-07:00" duration-ms="8586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewDealsTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:11 GMT-07:00" name="createNewDealsTest" data-provider="getCRMDeals" finished-at="2026-01-25T14:54:31 GMT-07:00" duration-ms="20778" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Genpact A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78f0045f7374a440330a0f3b0f0ee3bb, clickElement {id=f.70A96C1C733DE5A3BC3DA18226974E62.d.B539068D71050917661093B0E3B2369A.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9811}, goog:processID: 8308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9811/devtool..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Session ID: 78f0045f7374a440330a0f3b0f0ee3bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78f0045f7374a440330a0f3b0f0ee3bb, clickElement {id=f.70A96C1C733DE5A3BC3DA18226974E62.d.B539068D71050917661093B0E3B2369A.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9811}, goog:processID: 8308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9811/devtool..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Session ID: 78f0045f7374a440330a0f3b0f0ee3bb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$RxJzWLzf.click(Unknown Source)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+at pages.HomePage.clickOnAddDeals(HomePage.java:78)
+at tests.DealsPageTest.createNewDealsTest(DealsPageTest.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDealsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:31 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:54:32 GMT-07:00" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:32 GMT-07:00" name="setUp" finished-at="2026-01-25T14:54:41 GMT-07:00" duration-ms="8425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewDealsTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:41 GMT-07:00" name="createNewDealsTest" data-provider="getCRMDeals" finished-at="2026-01-25T14:54:47 GMT-07:00" duration-ms="6539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Xerox 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3444489]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDealsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:47 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:54:48 GMT-07:00" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:48 GMT-07:00" name="setUp" finished-at="2026-01-25T14:54:55 GMT-07:00" duration-ms="7676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewDealsTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:55 GMT-07:00" name="createNewDealsTest" data-provider="getCRMDeals" finished-at="2026-01-25T14:54:57 GMT-07:00" duration-ms="1871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Silverado Trade ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7004526]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDealsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.DealsPageTest@75f32542]" started-at="2026-01-25T14:54:57 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:54:58 GMT-07:00" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.DealsPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@43ee72e6]" started-at="2026-01-25T14:55:39 GMT-07:00" name="setUp" finished-at="2026-01-25T14:55:45 GMT-07:00" duration-ms="5766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:tests.LoginPageTest@43ee72e6]" started-at="2026-01-25T14:55:45 GMT-07:00" name="validateLoginPageTitleTest" finished-at="2026-01-25T14:55:45 GMT-07:00" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginPageTest@43ee72e6]" started-at="2026-01-25T14:55:45 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:55:48 GMT-07:00" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@43ee72e6]" started-at="2026-01-25T14:55:48 GMT-07:00" name="setUp" finished-at="2026-01-25T14:55:54 GMT-07:00" duration-ms="6119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:2, instance:tests.LoginPageTest@43ee72e6]" started-at="2026-01-25T14:55:54 GMT-07:00" name="validLoginTest" finished-at="2026-01-25T14:55:55 GMT-07:00" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginPageTest@43ee72e6]" started-at="2026-01-25T14:55:55 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:55:58 GMT-07:00" duration-ms="2786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:51:17 GMT-07:00" name="setUp" finished-at="2026-01-25T14:51:51 GMT-07:00" duration-ms="34162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifycontactsLabelTest()[pri:1, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:51:51 GMT-07:00" name="verifycontactsLabelTest" finished-at="2026-01-25T14:51:52 GMT-07:00" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactsLabelTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:51:52 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:51:53 GMT-07:00" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:51:53 GMT-07:00" name="setUp" finished-at="2026-01-25T14:52:05 GMT-07:00" duration-ms="11612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterLabelClickTest()[pri:2, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:05 GMT-07:00" name="filterLabelClickTest" finished-at="2026-01-25T14:52:05 GMT-07:00" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLabelClickTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:05 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:52:06 GMT-07:00" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:06 GMT-07:00" name="setUp" finished-at="2026-01-25T14:52:14 GMT-07:00" duration-ms="8102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectContactsByNameTest()[pri:3, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:14 GMT-07:00" name="selectContactsByNameTest" finished-at="2026-01-25T14:52:35 GMT-07:00" duration-ms="20413" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='maria paula']/ancestor::tr//label"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664c816673edae9bea382c99d3f731f0, findElement {value=//a[normalize-space()='maria paula']/ancestor::tr//label, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12063}, goog:processID: 18992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12063/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664c816673edae9bea382c99d3f731f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='maria paula']/ancestor::tr//label"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664c816673edae9bea382c99d3f731f0, findElement {value=//a[normalize-space()='maria paula']/ancestor::tr//label, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12063}, goog:processID: 18992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12063/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664c816673edae9bea382c99d3f731f0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$YG2j02LB.findElement(Unknown Source)
+at pages.ContactsPage.selectContactsByName(ContactsPage.java:53)
+at tests.ContactsPageTest.selectContactsByNameTest(ContactsPageTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContactsByNameTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:35 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:52:35 GMT-07:00" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:37 GMT-07:00" name="setUp" finished-at="2026-01-25T14:52:47 GMT-07:00" duration-ms="9540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatecreateNewContactsTest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:47 GMT-07:00" name="validatecreateNewContactsTest" data-provider="getCRMTestData" finished-at="2026-01-25T14:52:50 GMT-07:00" duration-ms="2980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cooper]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dc@gamil.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateNewContactsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:50 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:52:50 GMT-07:00" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:52:50 GMT-07:00" name="setUp" finished-at="2026-01-25T14:53:00 GMT-07:00" duration-ms="9756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatecreateNewContactsTest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:00 GMT-07:00" name="validatecreateNewContactsTest" data-provider="getCRMTestData" finished-at="2026-01-25T14:53:04 GMT-07:00" duration-ms="4263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hopper]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jh33@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateNewContactsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:04 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:53:05 GMT-07:00" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:05 GMT-07:00" name="setUp" finished-at="2026-01-25T14:53:12 GMT-07:00" duration-ms="6830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatecreateNewContactsTest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:12 GMT-07:00" name="validatecreateNewContactsTest" data-provider="getCRMTestData" finished-at="2026-01-25T14:53:15 GMT-07:00" duration-ms="3241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pippits]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pk45@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateNewContactsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:15 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:53:16 GMT-07:00" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:16 GMT-07:00" name="setUp" finished-at="2026-01-25T14:53:24 GMT-07:00" duration-ms="7281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatecreateNewContactsTest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:24 GMT-07:00" name="validatecreateNewContactsTest" data-provider="getCRMTestData" finished-at="2026-01-25T14:53:27 GMT-07:00" duration-ms="3212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Susan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[susandrew@hotmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateNewContactsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:27 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:53:27 GMT-07:00" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:27 GMT-07:00" name="setUp" finished-at="2026-01-25T14:53:35 GMT-07:00" duration-ms="7837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatecreateNewContactsTest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:35 GMT-07:00" name="validatecreateNewContactsTest" data-provider="getCRMTestData" finished-at="2026-01-25T14:53:39 GMT-07:00" duration-ms="4118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Victor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Creel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vchawkins@outlook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateNewContactsTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactsPageTest@45dd4eda]" started-at="2026-01-25T14:53:39 GMT-07:00" name="cleanUp" finished-at="2026-01-25T14:53:40 GMT-07:00" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.ContactsPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

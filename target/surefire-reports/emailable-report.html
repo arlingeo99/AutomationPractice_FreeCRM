@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">18</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">300,705</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ContactsPageTest</td><td><a href="#m0">selectContactsByNameTest</a></td><td rowspan="1">1769377934733</td><td rowspan="1">20413</td></tr><tr class="failedodd"><td rowspan="1">tests.DealsPageTest</td><td><a href="#m1">createNewDealsTest</a></td><td rowspan="1">1769378051081</td><td rowspan="1">20778</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.ContactsPageTest</td><td><a href="#m2">filterLabelClickTest</a></td><td rowspan="1">1769377925087</td><td rowspan="1">457</td></tr><tr class="passedeven"><td><a href="#m3">validatecreateNewContactsTest</a></td><td rowspan="5">1769378004086</td><td rowspan="5">3212</td></tr><tr class="passedeven"><td><a href="#m4">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m5">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m6">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m7">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m8">verifycontactsLabelTest</a></td><td rowspan="1">1769377911853</td><td rowspan="1">370</td></tr><tr class="passedodd"><td rowspan="4">tests.DealsPageTest</td><td><a href="#m9">createNewDealsTest</a></td><td rowspan="2">1769378081133</td><td rowspan="2">6539</td></tr><tr class="passedodd"><td><a href="#m10">createNewDealsTest</a></td></tr><tr class="passedodd"><td><a href="#m11">selectDealsByNameTest</a></td><td rowspan="1">1769378041191</td><td rowspan="1">544</td></tr><tr class="passedodd"><td><a href="#m12">verifydealsLabelTest</a></td><td rowspan="1">1769378027494</td><td rowspan="1">114</td></tr><tr class="passedeven"><td rowspan="3">tests.HomePageTest</td><td><a href="#m13">clickOnContactTest</a></td><td rowspan="1">1769378136760</td><td rowspan="1">1382</td></tr><tr class="passedeven"><td><a href="#m14">validateHomePageTitleTest</a></td><td rowspan="1">1769378106112</td><td rowspan="1">16</td></tr><tr class="passedeven"><td><a href="#m15">verifyvalidUserLabelTest</a></td><td rowspan="1">1769378122723</td><td rowspan="1">1198</td></tr><tr class="passedodd"><td rowspan="2">tests.LoginPageTest</td><td><a href="#m16">validLoginTest</a></td><td rowspan="1">1769378154338</td><td rowspan="1">1379</td></tr><tr class="passedodd"><td><a href="#m17">validateLoginPageTitleTest</a></td><td rowspan="1">1769378145695</td><td rowspan="1">50</td></tr><tr class="passedeven"><td rowspan="2">tests.TasksPageTest</td><td><a href="#m18">verifydeleteIconTest</a></td><td rowspan="1">1769378177082</td><td rowspan="1">629</td></tr><tr class="passedeven"><td><a href="#m19">verifytasksLabelTest</a></td><td rowspan="1">1769378169066</td><td rowspan="1">28</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">tests.ContactsPageTest#selectContactsByNameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;maria paula&apos;]/ancestor::tr//label&quot;}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664c816673edae9bea382c99d3f731f0, findElement {value=//a[normalize-space()=&apos;maria paula&apos;]/ancestor::tr//label, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12063}, goog:processID: 18992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12063/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664c816673edae9bea382c99d3f731f0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$YG2j02LB.findElement(Unknown Source)
+	at pages.ContactsPage.selectContactsByName(ContactsPage.java:53)
+	at tests.ContactsPageTest.selectContactsByNameTest(ContactsPageTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.DealsPageTest#createNewDealsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Genpact A</td><td>5000000</td><td>15</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.193)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78f0045f7374a440330a0f3b0f0ee3bb, clickElement {id=f.70A96C1C733DE5A3BC3DA18226974E62.d.B539068D71050917661093B0E3B2369A.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9811}, goog:processID: 8308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9811/devtool..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -&gt; xpath: //*[@id=&quot;main-nav&quot;]/div[5]/button/i]
+Session ID: 78f0045f7374a440330a0f3b0f0ee3bb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$RxJzWLzf.click(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at pages.HomePage.clickOnAddDeals(HomePage.java:78)
+	at tests.DealsPageTest.createNewDealsTest(DealsPageTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.ContactsPageTest#filterLabelClickTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Susan</td><td>Andrew</td><td>susandrew@hotmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Jane</td><td>Hopper</td><td>jh33@yahoo.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Pippits</td><td>Kane</td><td>pk45@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>David</td><td>Cooper</td><td>dc@gamil.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Victor</td><td>Creel</td><td>vchawkins@outlook.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.ContactsPageTest#verifycontactsLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.DealsPageTest#createNewDealsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Xerox 1</td><td>3444489</td><td>20</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.DealsPageTest#createNewDealsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Silverado Trade </td><td>7004526</td><td>13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.DealsPageTest#selectDealsByNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.DealsPageTest#verifydealsLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.HomePageTest#clickOnContactTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.HomePageTest#verifyvalidUserLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.LoginPageTest#validLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.LoginPageTest#validateLoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.TasksPageTest#verifydeleteIconTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.TasksPageTest#verifytasksLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

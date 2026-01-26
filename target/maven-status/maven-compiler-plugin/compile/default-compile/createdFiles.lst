@@ -1,0 +1,9 @@
+base\BaseTest.class
+utils\WebEventListener.class
+pages\LoginPage.class
+pages\ContactsPage.class
+pages\HomePage.class
+pages\TasksPage.class
+utils\TestUtils.class
+pages\DealsPage.class
+ExtentReportListener\ExtentReporterNG.class

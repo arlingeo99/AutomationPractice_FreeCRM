@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="302.602" tests="20" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\HP\.cache\selenium\chromedriver\win64\143.0.7499.192\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\SeleniumAutomationFramework\FreeCRMTest\target\test-classes;C:\SeleniumAutomationFramework\FreeCRMTest\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\HP\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\HP\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\HP\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\HP\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\HP\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\HP\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire18252280852702466755\surefirebooter-20260125145113787_3.jar C:\Users\HP\AppData\Local\Temp\surefire18252280852702466755 2026-01-25T14-51-13_323-jvmRun1 surefire-20260125145113787_1tmp surefire_0-20260125145113787_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\SeleniumAutomationFramework\FreeCRMTest\target\test-classes;C:\SeleniumAutomationFramework\FreeCRMTest\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\HP\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\HP\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\HP\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\HP\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\HP\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\HP\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\SeleniumAutomationFramework\FreeCRMTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire18252280852702466755\surefirebooter-20260125145113787_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="HP"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\SeleniumAutomationFramework\FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Maven\apache-maven-3.9.12/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\PuTTY\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\minikube;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Maven\apache-maven-3.9.12\bin;C:\Users\HP\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python311\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-19\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Terraform;C:\Users\HP\go\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Azure Data Studio\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="verifycontactsLabelTest" classname="tests.ContactsPageTest" time="0.355">
+    <system-out><![CDATA[Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (8e44965f1281e3d3572798f9df6f6193)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //*[@id="dashboard-toolbar"]/div[1]/span
+Found element by: By.xpath: //*[@id="dashboard-toolbar"]/div[1]/span
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="filterLabelClickTest" classname="tests.ContactsPageTest" time="0.462">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[1]
+Found element by: By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[1]
+Trying to click on: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[1]]
+Clicked on: [[ChromeDriver: chrome on windows (5c3dc6e010b364fd33378e32eabd6706)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[1]]
+]]></system-out>
+  </testcase>
+  <testcase name="selectContactsByNameTest" classname="tests.ContactsPageTest" time="20.419">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;maria paula&apos;]/ancestor::tr//label&quot;}&#10;  (Session info: chrome=143.0.7499.193)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [664c816673edae9bea382c99d3f731f0, findElement {value=//a[normalize-space()=&apos;maria paula&apos;]/ancestor::tr//label, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12063}, goog:processID: 18992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12063/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 664c816673edae9bea382c99d3f731f0" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='maria paula']/ancestor::tr//label"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664c816673edae9bea382c99d3f731f0, findElement {value=//a[normalize-space()='maria paula']/ancestor::tr//label, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12063}, goog:processID: 18992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12063/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664c816673edae9bea382c99d3f731f0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$YG2j02LB.findElement(Unknown Source)
+	at pages.ContactsPage.selectContactsByName(ContactsPage.java:53)
+	at tests.ContactsPageTest.selectContactsByNameTest(ContactsPageTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (664c816673edae9bea382c99d3f731f0)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //a[normalize-space()='maria paula']/ancestor::tr//label
+Exception occurred in method: findElement
+Error details: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='maria paula']/ancestor::tr//label"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664c816673edae9bea382c99d3f731f0, findElement {value=//a[normalize-space()='maria paula']/ancestor::tr//label, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12063}, goog:processID: 18992, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12063/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664c816673edae9bea382c99d3f731f0
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreateNewContactsTest[David, Cooper, dc@gamil.com](1)" classname="tests.ContactsPageTest" time="2.979">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+2026-01-25T21:52:36.074083100Z main ERROR Log4j API could not find a logging provider.
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Trying to click on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Clicked on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Trying to click on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Clicked on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Trying to find element by: By.name: first_name
+Found element by: By.name: first_name
+Typing value into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: first_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: first_name]
+Trying to find element by: By.name: last_name
+Found element by: By.name: last_name
+Typing value into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: last_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> name: last_name]
+Trying to find element by: By.xpath: //input[@placeholder='Email address']
+Found element by: By.xpath: //input[@placeholder='Email address']
+Typing value into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //input[@placeholder='Email address']]
+Finished typing into element: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //input[@placeholder='Email address']]
+Trying to find element by: By.xpath: //i[@class='save icon']
+Found element by: By.xpath: //i[@class='save icon']
+Trying to click on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //i[@class='save icon']]
+Clicked on: [[ChromeDriver: chrome on windows (9055dc333755c7ad99758d80c6b3f491)] -> xpath: //i[@class='save icon']]
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreateNewContactsTest[Jane, Hopper, jh33@yahoo.com](2)" classname="tests.ContactsPageTest" time="4.264">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Trying to click on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Clicked on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Trying to click on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Clicked on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Trying to find element by: By.name: first_name
+Found element by: By.name: first_name
+Typing value into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: first_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: first_name]
+Trying to find element by: By.name: last_name
+Found element by: By.name: last_name
+Typing value into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: last_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> name: last_name]
+Trying to find element by: By.xpath: //input[@placeholder='Email address']
+Found element by: By.xpath: //input[@placeholder='Email address']
+Typing value into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //input[@placeholder='Email address']]
+Finished typing into element: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //input[@placeholder='Email address']]
+Trying to find element by: By.xpath: //i[@class='save icon']
+Found element by: By.xpath: //i[@class='save icon']
+Trying to click on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //i[@class='save icon']]
+Clicked on: [[ChromeDriver: chrome on windows (0812caad8b249ddece95f596c9c3c7c2)] -> xpath: //i[@class='save icon']]
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreateNewContactsTest[Pippits, Kane, pk45@gmail.com](3)" classname="tests.ContactsPageTest" time="3.237">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Trying to click on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Clicked on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Trying to click on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Clicked on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Trying to find element by: By.name: first_name
+Found element by: By.name: first_name
+Typing value into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: first_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: first_name]
+Trying to find element by: By.name: last_name
+Found element by: By.name: last_name
+Typing value into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: last_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> name: last_name]
+Trying to find element by: By.xpath: //input[@placeholder='Email address']
+Found element by: By.xpath: //input[@placeholder='Email address']
+Typing value into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //input[@placeholder='Email address']]
+Finished typing into element: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //input[@placeholder='Email address']]
+Trying to find element by: By.xpath: //i[@class='save icon']
+Found element by: By.xpath: //i[@class='save icon']
+Trying to click on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //i[@class='save icon']]
+Clicked on: [[ChromeDriver: chrome on windows (6af9204294200b377579924c36c7001c)] -> xpath: //i[@class='save icon']]
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreateNewContactsTest[Susan, Andrew, susandrew@hotmail.com](4)" classname="tests.ContactsPageTest" time="3.21">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Trying to click on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Clicked on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Trying to click on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Clicked on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Trying to find element by: By.name: first_name
+Found element by: By.name: first_name
+Typing value into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: first_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: first_name]
+Trying to find element by: By.name: last_name
+Found element by: By.name: last_name
+Typing value into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: last_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> name: last_name]
+Trying to find element by: By.xpath: //input[@placeholder='Email address']
+Found element by: By.xpath: //input[@placeholder='Email address']
+Typing value into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //input[@placeholder='Email address']]
+Finished typing into element: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //input[@placeholder='Email address']]
+Trying to find element by: By.xpath: //i[@class='save icon']
+Found element by: By.xpath: //i[@class='save icon']
+Trying to click on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //i[@class='save icon']]
+Clicked on: [[ChromeDriver: chrome on windows (e724c4fa703afe2755f37ff67db01920)] -> xpath: //i[@class='save icon']]
+]]></system-out>
+  </testcase>
+  <testcase name="validatecreateNewContactsTest[Victor, Creel, vchawkins@outlook.com](5)" classname="tests.ContactsPageTest" time="4.118">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //span[text()='Contacts']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[3]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //*[@id="main-nav"]/div[3]/button/i]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div
+Trying to click on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Clicked on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span
+Trying to click on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Clicked on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //*[@id="main-content"]/div/div[2]/form/div[5]/div[1]/div/div/div[2]/div[3]/span]
+Trying to find element by: By.name: first_name
+Found element by: By.name: first_name
+Typing value into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: first_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: first_name]
+Trying to find element by: By.name: last_name
+Found element by: By.name: last_name
+Typing value into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: last_name]
+Finished typing into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> name: last_name]
+Trying to find element by: By.xpath: //input[@placeholder='Email address']
+Found element by: By.xpath: //input[@placeholder='Email address']
+Typing value into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //input[@placeholder='Email address']]
+Finished typing into element: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //input[@placeholder='Email address']]
+Trying to find element by: By.xpath: //i[@class='save icon']
+Found element by: By.xpath: //i[@class='save icon']
+Trying to click on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //i[@class='save icon']]
+Clicked on: [[ChromeDriver: chrome on windows (4cfd75f36bc6fee7a5017ca593e38039)] -> xpath: //i[@class='save icon']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifydealsLabelTest" classname="tests.DealsPageTest" time="0.118">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to click on: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> xpath: //span[text()='Deals']]
+Clicked on: [[ChromeDriver: chrome on windows (2184bd79f92e7a3bf6c82745afa90f8f)] -> xpath: //span[text()='Deals']]
+Trying to find element by: By.xpath: //*[@id="dashboard-toolbar"]/div[1]/span 
+Found element by: By.xpath: //*[@id="dashboard-toolbar"]/div[1]/span 
+]]></system-out>
+  </testcase>
+  <testcase name="selectDealsByNameTest" classname="tests.DealsPageTest" time="0.544">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to click on: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> xpath: //span[text()='Deals']]
+Clicked on: [[ChromeDriver: chrome on windows (1a219bfd47bebf4cf15de61c3cc91518)] -> xpath: //span[text()='Deals']]
+Trying to find element by: By.xpath: //a[normalize-space()='AMA']/ancestor::tr//label
+Found element by: By.xpath: //a[normalize-space()='AMA']/ancestor::tr//label
+]]></system-out>
+  </testcase>
+  <testcase name="createNewDealsTest[Genpact A, 5000000, 15](1)" classname="tests.DealsPageTest" time="20.782">
+    <failure message="element not interactable&#10;  (Session info: chrome=143.0.7499.193)&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [78f0045f7374a440330a0f3b0f0ee3bb, clickElement {id=f.70A96C1C733DE5A3BC3DA18226974E62.d.B539068D71050917661093B0E3B2369A.e.59}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9811}, goog:processID: 8308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9811/devtool..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -&gt; xpath: //*[@id=&quot;main-nav&quot;]/div[5]/button/i]&#10;Session ID: 78f0045f7374a440330a0f3b0f0ee3bb" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78f0045f7374a440330a0f3b0f0ee3bb, clickElement {id=f.70A96C1C733DE5A3BC3DA18226974E62.d.B539068D71050917661093B0E3B2369A.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9811}, goog:processID: 8308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9811/devtool..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Session ID: 78f0045f7374a440330a0f3b0f0ee3bb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$RxJzWLzf.click(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
+	at pages.HomePage.clickOnAddDeals(HomePage.java:78)
+	at tests.DealsPageTest.createNewDealsTest(DealsPageTest.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to click on: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //span[text()='Deals']]
+Clicked on: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //span[text()='Deals']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[5]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[5]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Exception occurred in method: click
+Error details: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78f0045f7374a440330a0f3b0f0ee3bb, clickElement {id=f.70A96C1C733DE5A3BC3DA18226974E62.d.B539068D71050917661093B0E3B2369A.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9811}, goog:processID: 8308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9811/devtool..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78f0045f7374a440330a0f3b0f0ee3bb)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Session ID: 78f0045f7374a440330a0f3b0f0ee3bb
+]]></system-out>
+  </testcase>
+  <testcase name="createNewDealsTest[Xerox 1, 3444489, 20](2)" classname="tests.DealsPageTest" time="6.537">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to click on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //span[text()='Deals']]
+Clicked on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //span[text()='Deals']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[5]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[5]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Trying to find element by: By.name: title
+Found element by: By.name: title
+Typing value into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: title]
+Finished typing into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: title]
+Trying to find element by: By.name: amount
+Found element by: By.name: amount
+Typing value into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: amount]
+Finished typing into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: amount]
+Trying to find element by: By.name: commission
+Found element by: By.name: commission
+Typing value into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: commission]
+Finished typing into element: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> name: commission]
+Trying to find element by: By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Found element by: By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Trying to click on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+Clicked on: [[ChromeDriver: chrome on windows (550622bb0f52f71fce6d9986b5e2d3f5)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+]]></system-out>
+  </testcase>
+  <testcase name="createNewDealsTest[Silverado Trade , 7004526, 13](3)" classname="tests.DealsPageTest" time="1.873">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to click on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //span[text()='Deals']]
+Clicked on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //span[text()='Deals']]
+Trying to find element by: By.xpath: //span[text()='Deals']
+Found element by: By.xpath: //span[text()='Deals']
+Trying to find element by: By.xpath: //*[@id="main-nav"]/div[5]/button/i
+Found element by: By.xpath: //*[@id="main-nav"]/div[5]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //*[@id="main-nav"]/div[5]/button/i]
+Trying to find element by: By.name: title
+Found element by: By.name: title
+Typing value into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: title]
+Finished typing into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: title]
+Trying to find element by: By.name: amount
+Found element by: By.name: amount
+Typing value into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: amount]
+Finished typing into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: amount]
+Trying to find element by: By.name: commission
+Found element by: By.name: commission
+Typing value into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: commission]
+Finished typing into element: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> name: commission]
+Trying to find element by: By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Found element by: By.xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]
+Trying to click on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+Clicked on: [[ChromeDriver: chrome on windows (7c2a57dc7da8dd4f1054c1a5ccc02c42)] -> xpath: //*[@id="dashboard-toolbar"]/div[2]/div/button[2]]
+]]></system-out>
+  </testcase>
+  <testcase name="validateHomePageTitleTest" classname="tests.HomePageTest" time="0.021">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (8ae2d8f9cdcd092ad366c50f4bf33c6c)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (8ae2d8f9cdcd092ad366c50f4bf33c6c)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (8ae2d8f9cdcd092ad366c50f4bf33c6c)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (8ae2d8f9cdcd092ad366c50f4bf33c6c)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (8ae2d8f9cdcd092ad366c50f4bf33c6c)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (8ae2d8f9cdcd092ad366c50f4bf33c6c)] -> xpath: //div[@class='ui fluid large blue submit button']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyvalidUserLabelTest" classname="tests.HomePageTest" time="1.197">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (7a3c8bc84cd237127295a8b1f11b205a)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (7a3c8bc84cd237127295a8b1f11b205a)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (7a3c8bc84cd237127295a8b1f11b205a)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (7a3c8bc84cd237127295a8b1f11b205a)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (7a3c8bc84cd237127295a8b1f11b205a)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (7a3c8bc84cd237127295a8b1f11b205a)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()= 'John Smith']
+Found element by: By.xpath: //span[text()= 'John Smith']
+]]></system-out>
+  </testcase>
+  <testcase name="clickOnContactTest" classname="tests.HomePageTest" time="1.386">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Contacts']
+Found element by: By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on windows (857662dcdf1d869bfff49bee81e362ef)] -> xpath: //span[text()='Contacts']]
+]]></system-out>
+  </testcase>
+  <testcase name="validateLoginPageTitleTest" classname="tests.LoginPageTest" time="0.048">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+]]></system-out>
+  </testcase>
+  <testcase name="validLoginTest" classname="tests.LoginPageTest" time="1.375">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (7128a3cd7784bed102347282e9286395)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (7128a3cd7784bed102347282e9286395)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (7128a3cd7784bed102347282e9286395)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (7128a3cd7784bed102347282e9286395)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (7128a3cd7784bed102347282e9286395)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (7128a3cd7784bed102347282e9286395)] -> xpath: //div[@class='ui fluid large blue submit button']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifytasksLabelTest" classname="tests.TasksPageTest" time="0.028">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Tasks']
+Found element by: By.xpath: //span[text()='Tasks']
+Trying to click on: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> xpath: //span[text()='Tasks']]
+Clicked on: [[ChromeDriver: chrome on windows (dc62667e0cd8533a3ff93de3c1fc4560)] -> xpath: //span[text()='Tasks']]
+Trying to find element by: By.xpath: //*[@id="dashboard-toolbar"]/div[1]/span 
+Found element by: By.xpath: //*[@id="dashboard-toolbar"]/div[1]/span 
+]]></system-out>
+  </testcase>
+  <testcase name="verifydeleteIconTest" classname="tests.TasksPageTest" time="0.624">
+    <system-out><![CDATA[Closing browser
+Browser closed
+Teardown successful
+Navigating to: https://ui.freecrm.com/
+Navigated to: https://ui.freecrm.com/
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Typing value into element: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> name: email]
+Finished typing into element: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> name: email]
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Typing value into element: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> name: password]
+Finished typing into element: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> name: password]
+Trying to find element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Found element by: By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find element by: By.xpath: //span[text()='Tasks']
+Found element by: By.xpath: //span[text()='Tasks']
+Trying to click on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //span[text()='Tasks']]
+Clicked on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //span[text()='Tasks']]
+Trying to find element by: By.xpath: //*[@id="main-content"]/div/div[2]/div/table/tbody/tr[2]/td[7]/button/i
+Found element by: By.xpath: //*[@id="main-content"]/div/div[2]/div/table/tbody/tr[2]/td[7]/button/i
+Trying to click on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //*[@id="main-content"]/div/div[2]/div/table/tbody/tr[2]/td[7]/button/i]
+Clicked on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //*[@id="main-content"]/div/div[2]/div/table/tbody/tr[2]/td[7]/button/i]
+Trying to find element by: By.xpath: //button[@class='ui left floated button']
+Found element by: By.xpath: //button[@class='ui left floated button']
+Trying to click on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //button[@class='ui left floated button']]
+Clicked on: [[ChromeDriver: chrome on windows (313550142f8d2303354f6703542fc9ec)] -> xpath: //button[@class='ui left floated button']]
+]]></system-out>
+  </testcase>
+</testsuite>

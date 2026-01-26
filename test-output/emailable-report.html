@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Free CRM Test Suite</th></tr>
+<tr><td><a href="#t0">Free CRM Test Cases</a></td><td class="num">19</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">184,348</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Free CRM Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free CRM Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ContactsPageTest</td><td><a href="#m0">selectContactsByNameTest</a></td><td rowspan="1">1769370603141</td><td rowspan="1">20376</td></tr><tr><th colspan="4">Free CRM Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.ContactsPageTest</td><td><a href="#m1">filterLabelClickTest</a></td><td rowspan="1">1769370595848</td><td rowspan="1">580</td></tr><tr class="passedeven"><td><a href="#m2">validatecreateNewContactsTest</a></td><td rowspan="5">1769370661466</td><td rowspan="5">2948</td></tr><tr class="passedeven"><td><a href="#m3">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m4">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m5">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m6">validatecreateNewContactsTest</a></td></tr><tr class="passedeven"><td><a href="#m7">verifycontactsLabelTest</a></td><td rowspan="1">1769370588643</td><td rowspan="1">242</td></tr><tr class="passedodd"><td rowspan="5">tests.DealsPageTest</td><td><a href="#m8">createNewDealsTest</a></td><td rowspan="3">1769370705882</td><td rowspan="3">1542</td></tr><tr class="passedodd"><td><a href="#m9">createNewDealsTest</a></td></tr><tr class="passedodd"><td><a href="#m10">createNewDealsTest</a></td></tr><tr class="passedodd"><td><a href="#m11">selectDealsByNameTest</a></td><td rowspan="1">1769370690310</td><td rowspan="1">381</td></tr><tr class="passedodd"><td><a href="#m12">verifydealsLabelTest</a></td><td rowspan="1">1769370681065</td><td rowspan="1">96</td></tr><tr class="passedeven"><td rowspan="3">tests.HomePageTest</td><td><a href="#m13">clickOnContactTest</a></td><td rowspan="1">1769370580813</td><td rowspan="1">1336</td></tr><tr class="passedeven"><td><a href="#m14">validateHomePageTitleTest</a></td><td rowspan="1">1769370568666</td><td rowspan="1">24</td></tr><tr class="passedeven"><td><a href="#m15">verifyvalidUserLabelTest</a></td><td rowspan="1">1769370573824</td><td rowspan="1">1108</td></tr><tr class="passedodd"><td rowspan="2">tests.LoginPageTest</td><td><a href="#m16">validLoginTest</a></td><td rowspan="1">1769370562587</td><td rowspan="1">701</td></tr><tr class="passedodd"><td><a href="#m17">validateLoginPageTitleTest</a></td><td rowspan="1">1769370557884</td><td rowspan="1">30</td></tr><tr class="passedeven"><td rowspan="2">tests.TasksPageTest</td><td><a href="#m18">verifydeleteIconTest</a></td><td rowspan="1">1769370728788</td><td rowspan="1">563</td></tr><tr class="passedeven"><td><a href="#m19">verifytasksLabelTest</a></td><td rowspan="1">1769370722404</td><td rowspan="1">92</td></tr></tbody>
+</table>
+<h2>Free CRM Test Cases</h2><h3 id="m0">tests.ContactsPageTest#selectContactsByNameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;maria paula&apos;]/ancestor::tr//label&quot;}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6356507c72b67d4a2998a2031eb7b5, findElement {value=//a[normalize-space()=&apos;maria paula&apos;]/ancestor::tr//label, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:13322}, goog:processID: 21108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:13322/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da6356507c72b67d4a2998a2031eb7b5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$DQGdhVx5.findElement(Unknown Source)
+	at pages.ContactsPage.selectContactsByName(ContactsPage.java:53)
+	at tests.ContactsPageTest.selectContactsByNameTest(ContactsPageTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.ContactsPageTest#filterLabelClickTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Susan</td><td>Andrew</td><td>susandrew@hotmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Jane</td><td>Hopper</td><td>jh33@yahoo.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>David</td><td>Cooper</td><td>dc@gamil.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Pippits</td><td>Kane</td><td>pk45@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.ContactsPageTest#validatecreateNewContactsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Victor</td><td>Creel</td><td>vchawkins@outlook.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.ContactsPageTest#verifycontactsLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.DealsPageTest#createNewDealsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Xerox 1</td><td>3444489</td><td>20</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.DealsPageTest#createNewDealsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Silverado Trade </td><td>7004526</td><td>13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.DealsPageTest#createNewDealsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Genpact A</td><td>5000000</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.DealsPageTest#selectDealsByNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.DealsPageTest#verifydealsLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.HomePageTest#clickOnContactTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.HomePageTest#verifyvalidUserLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.LoginPageTest#validLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.LoginPageTest#validateLoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.TasksPageTest#verifydeleteIconTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.TasksPageTest#verifytasksLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
