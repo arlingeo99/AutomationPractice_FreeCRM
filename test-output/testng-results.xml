@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-27T17:00:25 GMT-07:00" name="Default suite" finished-at="2026-01-27T17:00:48 GMT-07:00" duration-ms="22850">
+  <suite started-at="2026-01-30T15:53:43 GMT-07:00" name="Default suite" finished-at="2026-01-30T15:54:20 GMT-07:00" duration-ms="36328">
     <groups>
     </groups>
-    <test started-at="2026-01-27T17:00:25 GMT-07:00" name="Default test" finished-at="2026-01-27T17:00:48 GMT-07:00" duration-ms="22850">
-      <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@815b41f]" started-at="2026-01-27T17:00:25 GMT-07:00" name="setUp" finished-at="2026-01-27T17:00:37 GMT-07:00" duration-ms="11650" status="PASS">
+    <test started-at="2026-01-30T15:53:43 GMT-07:00" name="Default test" finished-at="2026-01-30T15:54:20 GMT-07:00" duration-ms="36328">
+      <class name="tests.TasksPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:53:46 GMT-07:00" name="setUp" finished-at="2026-01-30T15:53:58 GMT-07:00" duration-ms="11387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:tests.LoginPageTest@815b41f]" started-at="2026-01-27T17:00:37 GMT-07:00" name="validateLoginPageTitleTest" finished-at="2026-01-27T17:00:37 GMT-07:00" duration-ms="47" status="PASS">
+        <test-method signature="validatecreateNewTaskTest(java.lang.String,java.lang.String)[pri:3, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:53:58 GMT-07:00" name="validatecreateNewTaskTest" data-provider="getCRMTestData" finished-at="2026-01-30T15:53:59 GMT-07:00" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BVC ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginPageTitleTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginPageTest@815b41f]" started-at="2026-01-27T17:00:37 GMT-07:00" name="cleanUp" finished-at="2026-01-27T17:00:40 GMT-07:00" duration-ms="3420" status="PASS">
+        </test-method> <!-- validatecreateNewTaskTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:53:59 GMT-07:00" name="cleanUp" finished-at="2026-01-30T15:54:01 GMT-07:00" duration-ms="1509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@815b41f]" started-at="2026-01-27T17:00:40 GMT-07:00" name="setUp" finished-at="2026-01-27T17:00:46 GMT-07:00" duration-ms="5410" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:54:01 GMT-07:00" name="setUp" finished-at="2026-01-30T15:54:08 GMT-07:00" duration-ms="6782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:2, instance:tests.LoginPageTest@815b41f]" started-at="2026-01-27T17:00:46 GMT-07:00" name="validLoginTest" finished-at="2026-01-27T17:00:46 GMT-07:00" duration-ms="865" status="PASS">
+        <test-method signature="validatecreateNewTaskTest(java.lang.String,java.lang.String)[pri:3, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:54:08 GMT-07:00" name="validatecreateNewTaskTest" data-provider="getCRMTestData" finished-at="2026-01-30T15:54:10 GMT-07:00" duration-ms="1969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ATCO Lab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginPageTest@815b41f]" started-at="2026-01-27T17:00:46 GMT-07:00" name="cleanUp" finished-at="2026-01-27T17:00:48 GMT-07:00" duration-ms="1350" status="PASS">
+        </test-method> <!-- validatecreateNewTaskTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:54:10 GMT-07:00" name="cleanUp" finished-at="2026-01-30T15:54:11 GMT-07:00" duration-ms="896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- tests.LoginPageTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:54:11 GMT-07:00" name="setUp" finished-at="2026-01-30T15:54:17 GMT-07:00" duration-ms="6342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatecreateNewTaskTest(java.lang.String,java.lang.String)[pri:3, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:54:17 GMT-07:00" name="validatecreateNewTaskTest" data-provider="getCRMTestData" finished-at="2026-01-30T15:54:19 GMT-07:00" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[General Dynamics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreateNewTaskTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.TasksPageTest@5bda8e08]" started-at="2026-01-30T15:54:19 GMT-07:00" name="cleanUp" finished-at="2026-01-30T15:54:20 GMT-07:00" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.TasksPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

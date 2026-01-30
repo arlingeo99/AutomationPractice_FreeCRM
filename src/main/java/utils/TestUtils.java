@@ -106,6 +106,45 @@ public class TestUtils extends BaseTest{
 		 return testdata;
 	}
 
+	public static Object[][] getTasks(String sheetname) throws FileNotFoundException
+	{
+		FileInputStream fis = null;
+		try { fis = new FileInputStream(TestData_FilePath); }
+		
+		catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block e.printStackTrace(); }
+		}
+		try {
+			book = WorkbookFactory.create(fis);
+		} catch (EncryptedDocumentException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		sheet = book.getSheet(sheetname);
+		
+		int totalRows = sheet.getLastRowNum();
+		Row rowCells = sheet.getRow(0);
+		int totalCols = rowCells.getLastCellNum();
+		
+		//to format the data taken from the excel sheet
+		DataFormatter format = new  DataFormatter();
+		
+		Object testData[][] = new Object[totalRows][totalCols];
+		
+		for(int i =1; i <= totalRows ;i++)
+		{
+			for(int j= 0; j < totalCols; j++)
+			{
+				testData[i-1][j] = format.formatCellValue(sheet.getRow(i).getCell(j));
+				
+			}
+		}
+		
+		return testData;
+	}
+	
+	
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshotFile, new File(".//screenshots/" + System.currentTimeMillis()+".png"));		

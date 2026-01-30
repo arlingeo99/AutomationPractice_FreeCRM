@@ -1,9 +1,11 @@
 package tests;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -11,6 +13,7 @@ import base.BaseTest;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.TasksPage;
+import utils.TestUtils;
 
 public class TasksPageTest extends BaseTest{
 	
@@ -18,6 +21,7 @@ public class TasksPageTest extends BaseTest{
 	HomePage homepg;
 	TasksPage taskspg;
 	SoftAssert sfa;
+	String sheetname ="Tasks";
 	
 	public TasksPageTest()
 	{
@@ -37,6 +41,7 @@ public class TasksPageTest extends BaseTest{
 	}
 	
 	@Test(priority =1)
+	
 	public void verifytasksLabelTest()
 	{
 		sfa.assertTrue(taskspg.verifytasksLabel(), "The tasks label is not displayed");
@@ -48,6 +53,21 @@ public class TasksPageTest extends BaseTest{
 	{
 		taskspg.verifydeleteIcon();
 	}
+	
+	@DataProvider
+	public Object[][] getCRMTestData() throws FileNotFoundException{
+		Object testData[][]= TestUtils.getContacts(sheetname);
+		return testData;
+	}
+	
+	@Test(priority =3 , dataProvider = "getCRMTestData")
+	public void validatecreateNewTaskTest(String tasktitle, String comprate)
+	{
+		homepg.clickOnAddTasks();
+		taskspg.createNewTask(tasktitle, comprate);
+		
+	}
+	
 	@AfterMethod
 	public void cleanUp()
 	{

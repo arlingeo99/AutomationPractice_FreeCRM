@@ -30,6 +30,11 @@ public class HomePage extends BaseTest {
 	
 	@FindBy(xpath = "//*[@id=\"main-nav\"]/div[5]/button/i")
 	WebElement addDealsLink;
+	
+	@FindBy(xpath = "//*[@id=\"main-nav\"]/div[6]/button/i")
+	WebElement addTasksLink;
+	
+	
 
 //initializing page factory
 
@@ -76,6 +81,14 @@ public class HomePage extends BaseTest {
 		Actions actions= new Actions(driver);
 		actions.moveToElement(dealsLink).build().perform();
 		addDealsLink.click();
+		
+	}
+	
+	public void clickOnAddTasks()
+	{
+		Actions actions= new Actions(driver);
+		actions.moveToElement(tasksLink).build().perform();
+		addTasksLink.click();
 		
 	}
 
